@@ -29,5 +29,7 @@
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.4"
     },
-    "dependencies": {}
+    "dependencies": {
+        "react-share": "^3.0.1"
+    }
 }
