@@ -7,10 +7,11 @@
         @foreach ($tour as $date)
             <div>{{ $date->title }}</div>
             <div>{{ $date->date }}</div>
+            <div class="text-sm italic">{{ $date->excerpt }}</div>
         @endforeach
     </section>
 
-    <section class="bg-black text-white">
+    {{-- <section class="bg-black text-white">
         <siema ref="siema" class="siema" :options="options" auto-play >
             <div class="slide p-8 m-2 bg-red-600">
                 <p>Slide 1</p>
@@ -25,6 +26,6 @@
                 <p>Slide 4</p>
             </div>
         </siema>
-    </section>
+    </section> --}}
 
 @endsection
