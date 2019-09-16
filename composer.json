@@ -16,6 +16,9 @@
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
+        "laracasts/generators": "dev-master",
+        "laracasts/presenter": "^0.2.2",
+        "laracasts/utilities": "^3.0",
         "laravel/framework": "^6.0",
         "laravel/nova": "~2.0",
         "laravel/tinker": "^1.0",

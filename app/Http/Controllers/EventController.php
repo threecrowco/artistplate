@@ -6,7 +6,7 @@ use App\Event;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 
-class TourController extends Controller
+class EventController extends Controller
 {
 
     public function index()

@@ -18,4 +18,5 @@ Route::get('/contact', 'PagesController@contact')->name('contact');
 
 
 // Tour Routes
-Route::resource('tour', 'TourController')->only(['index', 'show']);
+Route::get('tour', 'EventController@index')->name('tour.index');
+Route::get('tour/{event}', 'EventController@show')->name('tour.show');

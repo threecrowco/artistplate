@@ -12,13 +12,16 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100 h-screen antialiased leading-none">
+    <div id="app">
 
-    @yield('content')
+        @yield('content')
 
+    </div>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 
